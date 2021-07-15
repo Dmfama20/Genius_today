@@ -1,0 +1,17 @@
+export const MODE_INTRO = 'intro';
+export const MODE_HINT = 'hint';
+export const MODE_HELP = 'help';
+export const MODE_HIGHSCORE = 'highscore';
+export const MODE_LEVELS = 'levels';
+export const MODE_QUESTION = 'question';
+export const VALID_MODES = [
+    MODE_INTRO,
+    MODE_HINT,
+    MODE_HELP,
+    MODE_HIGHSCORE,
+    MODE_LEVELS,
+    MODE_QUESTION,
+];
+export const GAME_PROGRESS = 'progress';
+export const GAME_FINISHED = 'finished';
+export const GAME_DUMPED = 'dumped';
